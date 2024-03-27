@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blue;
+  height: 50px;
+  width: 100%;
+}
+
+.logo {
+  padding: 50px;
+}
+
+.home {
+  padding: 30px;
+}
+
+.home,
+.logo {
+  color: white; /* Adjust the color as needed */
+}
+
+.home:hover,
+.logo:hover {
+  cursor: pointer;
+}
+
+.label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.label-text  {
+  font-size: 30px;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+/* Styling for the text input */
+.textInput {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  margin-right: 10px;
+}
+
+.textInput:focus {
+  border-color: blue;
+}
+
+.button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: darkblue;
+}
+
+.label {
+  font-size: 16px;
+}
+
+.stock  {
+  height: 200px;
+  width: 150px;
+  background-color: antiquewhite;
+  border-radius: 20px;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.stock h1 {
+  margin: 0;
+  padding: 10px;
+}
+
+.stockName {
+  font-size: 20px;
+}
+
+.stockPrice, .stockPercent {
+  font-size: 16px;
+}
+
+.outer  {
+  padding: 10px;
+  cursor: pointer;
+}
